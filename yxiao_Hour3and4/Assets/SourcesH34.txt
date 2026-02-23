@@ -1,0 +1,14 @@
+ __  __     __   __     __     ______   __  __    
+/\ \/\ \   /\ "-.\ \   /\ \   /\__  _\ /\ \_\ \   
+\ \ \_\ \  \ \ \-.  \  \ \ \  \/_/\ \/ \ \____ \  
+ \ \_____\  \ \_\\"\_\  \ \_\    \ \_\  \/\_____\ 
+  \/_____/   \/_/ \/_/   \/_/     \/_/   \/_____/                       
+                                                                                                                                                                  
+
+
+Texture 1 source url:https://media.gettyimages.com/id/2242840008/photo/deep-red-textured-velvet-background-for-design-marketing-presentation-creative-projects.jpg?s=612x612&w=0&k=20&c=wCcNEiycRuJFoTpKA39_VbZRmeDpcyQpHEekbo2i5ac=
+
+Texture 2 source url:https://www.vecteezy.com/free-photos/white-fur-texture
+
+3D model source url:https://assetstore.unity.com/packages/3d/environments/abandoned-buildings-62875
+
