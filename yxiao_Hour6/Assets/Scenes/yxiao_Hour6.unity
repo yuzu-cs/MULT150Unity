@@ -346,7 +346,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756708722}
   m_LocalRotation: {x: 0.081470214, y: 0.8825489, z: 0.16635601, w: -0.4321986}
-  m_LocalPosition: {x: 145.13646, y: 2.9539948, z: 146.37567}
+  m_LocalPosition: {x: 130.07144, y: 10.065514, z: 165.0076}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -362,6 +362,11 @@ Skybox:
   m_GameObject: {fileID: 756708722}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 0}
+--- !u!1 &810161936 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+  m_PrefabInstance: {fileID: 360938219}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &969867392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -391,7 +396,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_LocalPosition.z
@@ -436,6 +441,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 991043412}
+  - component: {fileID: 991043413}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -458,6 +464,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &991043413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991043411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d5ab4985771824591da65e403c04c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 1465598689}
+  player: {fileID: 810161936}
 --- !u!1 &1279216990
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +490,7 @@ GameObject:
   - component: {fileID: 1279216993}
   - component: {fileID: 1279216992}
   - component: {fileID: 1279216991}
+  - component: {fileID: 1279216995}
   m_Layer: 0
   m_Name: Water Hazard Detector
   m_TagString: Untagged
@@ -549,13 +570,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279216990}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100, y: 27, z: 100}
+  m_LocalPosition: {x: 100, y: 26, z: 100}
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1279216995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279216990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3bff3c02e835141a45f680d650c260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 991043413}
 --- !u!1 &1465598688
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,6 +632,7 @@ GameObject:
   - component: {fileID: 1493407155}
   - component: {fileID: 1493407154}
   - component: {fileID: 1493407156}
+  - component: {fileID: 1493407157}
   m_Layer: 0
   m_Name: 'Finish Zone '
   m_TagString: Untagged
@@ -696,6 +731,19 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1493407157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493407153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9fdc412cad3d1a48b26cc7aa1fd63d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 991043413}
 --- !u!1 &1758997842
 GameObject:
   m_ObjectHideFlags: 0
