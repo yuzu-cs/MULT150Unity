@@ -1,0 +1,26 @@
+ __  __     __   __     __     ______   __  __    
+/\ \/\ \   /\ "-.\ \   /\ \   /\__  _\ /\ \_\ \   
+\ \ \_\ \  \ \ \-.  \  \ \ \  \/_/\ \/ \ \____ \  
+ \ \_____\  \ \_\\"\_\  \ \_\    \ \_\  \/\_____\ 
+  \/_____/   \/_/ \/_/   \/_/     \/_/   \/_____/                       
+                                                                                                                                                                  
+
+
+A. Add multiple finish zones. See if you can place them in a way that offers the player more choices. For example, a dangerous shortcut route vs an easy but lengthier one.
+There are two finish zones in my amazing racer mod. One of them is harder that requires the player to jump over lava, although the easier path has a fake chest that actually fails the game. 
+
+
+
+B. Modify the level to have more, and different hazards. (At least 2 new hazards that are not water.)
+I added lava and a fake chest to lure the player to seek failure
+
+
+
+C. Modify the game to include an element of verticality in your game to make use of the jumping mechanic! (spacebar to jump)
+The building in different height requires the player to jump and stay out of the lava
+
+
+
+D. Modify the sky and textures to create a world based on your theme.
+Modified sky to have a volcano/crimson look and removed fog because there can't be fog over lava
+
