@@ -7,18 +7,18 @@ public class Evens : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int i = 22;
-        while (i <= 100)
-        {
-            Debug.Log(i);
-            i += 2;
-        }
-
-        //int i;
-        //for (i = 22; i <= 100; i += 2)
+        //int i = 22;
+        //while (i <= 100)
         //{
         //    Debug.Log(i);
+        //    i += 2;
         //}
+
+
+        for (int i = 22; i <= 100; i += 2)
+        {
+            Debug.Log(i);
+        }
     }
 
     // Update is called once per frame

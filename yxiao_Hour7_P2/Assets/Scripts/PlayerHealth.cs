@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
         float health = 1004f;
         float poisonDamage = 125.5f;
 
-        while (health >= 0)
+        while (health > 0)
         {
             Debug.Log(health);
             health -= poisonDamage;
@@ -18,6 +18,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (health <= 0)
         {
+            Debug.Log(health);
             Debug.Log("Player has been unalived!");
         }
     }
