@@ -15,6 +15,9 @@ public class MotionScript : MonoBehaviour
     {
         float mX = Input.GetAxis("Mouse X") / 10;
         float mY = Input.GetAxis("Mouse Y") / 10;
-        transform.Translate(mX, mY, 0);
+        float kX = Input.GetAxis("Horizontal") * Time.deltaTime * 5;
+        float kY = Input.GetAxis("Vertical") * Time.deltaTime * 5;
+
+        transform.Translate(mX + kX, mY + kY, 0);
     }
 }
