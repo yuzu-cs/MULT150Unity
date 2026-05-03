@@ -2,6 +2,14 @@ using UnityEngine;
 public class PrefabGenerator : MonoBehaviour
 {
     public GameObject prefab;
+
+    void Start()
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            Instantiate(prefab, new Vector3(i, 0, 0), Quaternion.identity);
+        }
+    }
     void Update()
     {
         // Whenever we hit the B key we will generate a prefab at the
