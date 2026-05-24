@@ -582,8 +582,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4687c7420fdccd64b95441d9e410293a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerupPrefab: {fileID: 4602505376283754357, guid: 2d35a4aee141c184d8bd56adc53fc8d7, type: 3}
-  obstaclePrefab: {fileID: 34700964874786661, guid: fe801115afca3e94f9396a882d590a11, type: 3}
+  powerupPrefab: {fileID: 7936018819707584187, guid: 424a9272eddb963489557d802ef3284b, type: 3}
+  obstaclePrefab: {fileID: 9007940379365030754, guid: 4353b2a42edf37e49a0f0fb81c64b18d, type: 3}
   spawnCycle: 0.5
 --- !u!1 &643906615 stripped
 GameObject:
