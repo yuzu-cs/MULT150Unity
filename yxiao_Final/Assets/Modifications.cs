@@ -31,20 +31,27 @@
         
         POWERUP PREFAB
         5 - replace with a new complex object comprised of 3 or more shapes (different from previously made object)
-        modifications: 
+        modifications: replaced with a new Clock prefab (time-themed to match its function),
+                       built from 2 cylinders as the face and frame, 
+                       multiple cubes forming the number markers and hands, 
+                       and a capsule as the center dot
 
         6 - use gameobject hierarchy to keep the powerup prefab organised
         [no record necessary]
 
         7 - apply at least 2 new textures
         (add source url or package name)
-        texture source 1: 
-        texture source 2: 
+        texture source 1: Clock Frame https://ambientcg.com/view?id=Metal028
+        texture source 2: Clock Face https://ambientcg.com/view?id=Marble012
 
         8 - add particle system component and customise at least 3 parameters
-        parameter 1: 
-        parameter 2: 
-        parameter 3: 
+        parameter 1: Start Lifetime: 0.4
+        parameter 2: Start Speed: 2
+        parameter 3: Start Size: 0.4
+        parameter 4: Start Color: FEFEFA
+        parameter 5: Render Mode: Vertical Billboard
+        parameter 6: Shape: Cone, angle 2, radius 0.17
+
 
         WALL
         9 - convert a wall to prefab, create a variant, and use the variant to replace the other wall in the scene
